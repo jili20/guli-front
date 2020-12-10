@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a0ada6e-4633-4b00-acfb-df216feb987a" name="Default Changelist" comment="" />
+    <list default="true" id="3a0ada6e-4633-4b00-acfb-df216feb987a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lNMFExgO2qUpPqggtTXm3OneSD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/teacher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,7 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1607432989816</updated>
       <workItem from="1607432990899" duration="6371000" />
-      <workItem from="1607478380150" duration="7661000" />
+      <workItem from="1607478380150" duration="8310000" />
+      <workItem from="1607513862135" duration="498000" />
+      <workItem from="1607562268867" duration="12128000" />
     </task>
     <servers />
   </component>
@@ -63,6 +78,14 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="902" y="444" key="#ESLint/0.25.1792.1038@0.25.1792.1038" timestamp="1607433403408" />
+    <state x="666" y="409" key="Github.ShareDialog" timestamp="1607504879985">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="666" y="409" key="Github.ShareDialog/0.25.1792.1038@0.25.1792.1038" timestamp="1607504879985" />
+    <state x="578" y="120" key="Github.UntrackedFilesDialog" timestamp="1607504928016">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="578" y="120" key="Github.UntrackedFilesDialog/0.25.1792.1038@0.25.1792.1038" timestamp="1607504928016" />
     <state width="1741" height="242" key="GridCell.Tab.0.bottom" timestamp="1607442380445">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
