@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a0ada6e-4633-4b00-acfb-df216feb987a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/course/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/course/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/_id.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="a.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/guli-front/a.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.a.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,6 +94,7 @@
       <workItem from="1607600570437" duration="860000" />
       <workItem from="1607655591779" duration="8346000" />
       <workItem from="1607684972490" duration="7181000" />
+      <workItem from="1607735315022" duration="9856000" />
     </task>
     <servers />
   </component>
