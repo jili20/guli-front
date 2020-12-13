@@ -1,17 +1,21 @@
 import axios from 'axios'
+// eslint-disable-next-line no-unused-vars
+import { MessageBox, Message } from 'element-ui'
 import cookie from 'js-cookie'
-// import { MessageBox, Message } from 'element-ui' // 消息提示组件
+
 // 创建axios实例
 const service = axios.create({
-  baseURL: 'http://localhost:9001', // api的base_url（ nginx 地址)
+  baseURL: 'http://localhost:9001', // api的base_url
   timeout: 20000 // 请求超时时间
 })
 
-// 第三步：创建 http request 拦截器，每次请求都使用这个拦截器
+// 第三步 创建拦截器  http request 拦截器
 service.interceptors.request.use(
   config => {
     // debugger
+    // 判断cookie里面是否有名称是guli_token数据
     if (cookie.get('guli_token')) {
+      // 把获取cookie值放到header里面
       config.headers['token'] = cookie.get('guli_token')
     }
     return config
@@ -21,32 +25,34 @@ service.interceptors.request.use(
   })
 
 // http response 拦截器
-// service.interceptors.response.use(
-//   response => {
-//     // debugger
-//     if (response.data.code == 28004) {
-//       console.log('response.data.resultCode是28004')
-//       // 返回 错误代码-1 清除ticket信息并跳转到登录页面
-//       // debugger
-//       window.location.href = '/login'
-//       return
-//     } else {
-//       if (response.data.code !== 20000) {
-//         // 25000：订单支付中，不做任何提示
-//         if (response.data.code != 25000) {
-//           Message({
-//             message: response.data.message || 'error',
-//             type: 'error',
-//             duration: 5 * 1000
-//           })
-//         }
-//       } else {
-//         return response
-//       }
-//     }
-//   },
-//   error => {
-//     return Promise.reject(error.response) // 返回接口返回的错误信息
-//   })
+service.interceptors.response.use(
+  response => {
+    // debugger
+    // eslint-disable-next-line eqeqeq
+    if (response.data.code == 28004) {
+      console.log('response.data.resultCode是28004')
+      // 返回 错误代码-1 清除ticket信息并跳转到登录页面
+      // debugger
+      window.location.href = '/login'
+      return
+    } else {
+      if (response.data.code !== 20000) {
+        // 25000：订单支付中，不做任何提示
+        // eslint-disable-next-line eqeqeq
+        if (response.data.code != 25000) {
+          Message({
+            message: response.data.message || 'error',
+            type: 'error',
+            duration: 5 * 1000
+          })
+        }
+      } else {
+        return response
+      }
+    }
+  },
+  error => {
+    return Promise.reject(error.response) // 返回接口返回的错误信息
+  })
 
 export default service

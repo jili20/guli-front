@@ -21,7 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3a0ada6e-4633-4b00-acfb-df216feb987a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sign.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/web.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/web.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/course/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pages/teacher" />
       <recent name="$PROJECT_DIR$/layouts" />
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +102,9 @@
       <workItem from="1607600570437" duration="860000" />
       <workItem from="1607655591779" duration="8346000" />
       <workItem from="1607684972490" duration="7181000" />
-      <workItem from="1607735315022" duration="9856000" />
+      <workItem from="1607735315022" duration="11789000" />
+      <workItem from="1607774030620" duration="4061000" />
+      <workItem from="1607828884115" duration="1778000" />
     </task>
     <servers />
   </component>
